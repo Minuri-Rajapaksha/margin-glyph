@@ -8,3 +8,5 @@ Spike done on VSIX margin-glyph event handlers
 5. Open a code file that has comments. Add the word "todo" to one of the comment sections.
 6. A light blue circle with a dark blue outline appears in the indicator margin to the left of the code window.
 
+VSIX-01: Branch test-classifier
+VSIS-02: Branch info-classifier
