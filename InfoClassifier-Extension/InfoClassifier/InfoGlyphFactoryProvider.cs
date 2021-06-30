@@ -7,10 +7,9 @@ namespace InfoClassifier
 {
     [Export(typeof(IGlyphFactoryProvider))]
     [Name("InfoGlyph")]
-    [Order(After = "EditorMargin2")]
+    [Order(After = "VsTextMarker")]
     [ContentType("code")]
     [TagType(typeof(InfoTag))]
-    [MarginContainer(PredefinedMarginNames.VerticalScrollBar)]
     internal sealed class InfoGlyphFactoryProvider : IGlyphFactoryProvider
     {
         public IGlyphFactory GetGlyphFactory(IWpfTextView view, IWpfTextViewMargin margin)

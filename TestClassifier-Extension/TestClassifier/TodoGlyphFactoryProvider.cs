@@ -7,10 +7,9 @@ namespace TestClassifier
 {
     [Export(typeof(IGlyphFactoryProvider))]
     [Name("TodoGlyph")]
-    [Order(After = "EditorMargin2")]
+    [Order(After = "VsTextMarker")]
     [ContentType("code")]
     [TagType(typeof(TodoTag))]
-    [MarginContainer(PredefinedMarginNames.VerticalScrollBar)]
     internal sealed class TodoGlyphFactoryProvider : IGlyphFactoryProvider
     {
         public IGlyphFactory GetGlyphFactory(IWpfTextView view, IWpfTextViewMargin margin)
