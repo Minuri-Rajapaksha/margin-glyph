@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.Utilities;
 using System;
 using System.ComponentModel.Composition;
 
-namespace TestClassifier
+namespace InfoClassifier
 {
     [Export(typeof(ITaggerProvider))]
     [ContentType("code")]

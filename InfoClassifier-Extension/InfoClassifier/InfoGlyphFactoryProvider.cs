@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.Text.Tagging;
 using Microsoft.VisualStudio.Utilities;
 using System.ComponentModel.Composition;
 
-namespace TestClassifier
+namespace InfoClassifier
 {
     [Export(typeof(IGlyphFactoryProvider))]
     [Name("InfoGlyph")]

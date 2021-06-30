@@ -2,10 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/packages
-*/bin
-*/obj
+bin
+obj
 /bin
 /obj
-TestClassifier/.vs/*
-TestClassifier/obj/Debug
+*/bin
+*/obj
+/packages

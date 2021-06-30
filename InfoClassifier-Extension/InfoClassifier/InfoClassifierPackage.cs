@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using Task = System.Threading.Tasks.Task;
 
-namespace TestClassifier
+namespace InfoClassifier
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.
@@ -28,7 +28,7 @@ namespace TestClassifier
     public sealed class InfoClassifierPackage : AsyncPackage
     {
         /// <summary>
-        /// TestClassifierPackage GUID string.
+        /// InfoClassifierPackage GUID string.
         /// </summary>
         public const string PackageGuidString = "e07fd4ec-97b0-4e81-a8ee-5eb3e480c437";
 

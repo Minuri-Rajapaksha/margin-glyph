@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.Text.Tagging;
 using System;
 using System.Collections.Generic;
 
-namespace TestClassifier
+namespace InfoClassifier
 {
     internal class InfoTagger : ITagger<InfoTag>
     {
